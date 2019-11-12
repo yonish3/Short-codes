@@ -1,0 +1,75 @@
+
+#container {
+  background-color: purple;
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border-radius: 25px;
+}
+
+#title1{
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+#title2{
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+#box1{
+  background-color: gainsboro;
+  height: 80px;
+  width: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+#box2{
+  background-color: gainsboro;
+  height: 150px;
+  width: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 75px;
+}
+
+#box3{
+  background-color: gainsboro;
+  height: 170px;
+  width: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 135px;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id=container>
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+        <div id="box6"></div>
+        <span >
+            <p id="title1">Money</p>
+            <p id="title2">Time</p>
+        </span>
+    </div>
+
+</body>
+</html>

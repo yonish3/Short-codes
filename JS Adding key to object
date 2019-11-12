@@ -1,0 +1,30 @@
+const reservations = {
+        bob: { claimed: false },
+        ted: { claimed: true }
+      }
+
+const name = prompt('Please enter the name for your reservation');
+let nameLowerCase = name.toLowerCase()      
+arrayName = Object.keys(reservations)
+arryClaim = [reservations.Bob,reservations.Ted]
+
+if (nameLowerCase==arrayName[0]||nameLowerCase==arrayName[1]) {
+  if (nameLowerCase==arrayName[0]) {
+    if (arryClaim[0]) {
+      alert("welcome user");
+    } else {
+      alert("already claimed")
+    }
+  }
+  if (nameLowerCase==arrayName[1]) {
+    if (arryClaim[1]) {
+      alert("welcome user");
+    } else {
+      alert("already claimed")
+    }
+  }
+} else {
+  //alert("there is nothing under your name");
+  reservations[name] = {claimed : true}
+  console.log(reservations[name].claimed)
+ }
